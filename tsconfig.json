@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "outDir": "lib",
+    "target": "es2018",
+    "module": "commonjs",
+    "strict": true,
+    "noImplicitThis": false,
+    "noUnusedLocals": true,
+    "removeComments": true,
+    "declaration": true,
+    "sourceMap": true,
+    "jsx": "react",
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "typeRoots": [
+      "index.d.ts",
+      "node_modules/@types"
+    ]
+  },
+  "include": [
+    "./src/**/*.tsx",
+    "./src/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

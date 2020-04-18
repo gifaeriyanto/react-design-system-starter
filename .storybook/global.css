@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Code:400&display=swap');
+
+#root > div:not(#story-root) h1,
+#root > div:not(#story-root) h3,
+#root > div:not(#story-root) small {
+  display: none;
+}
+
+#root > div:not(#story-root) > div {
+  padding: 0 !important;
+  border-radius: 4px !important;
+}
+
+#root > div:not(#story-root) > div > div {
+  border-radius: 3px;
+  background-color: #072435;
+}
+
+#root > div:not(#story-root) .simplebar-content * {
+  font-family: 'Fira Code', monospace;
+}
+
+#root > div:not(#story-root) > div > div > div {
+  background-color: transparent;
+}
+
+#root > div:not(#story-root) > div > div > div > button {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #ffffff;
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+#story-root {
+  margin-bottom: 40px;
+}
+
+.info-table {
+  display: none !important;
+}
+
+#root {
+  padding: 30px;
+}
+
+.simplebar-content pre {
+  display: block !important;
+}
+
+.token.punctuation,
+.token.plain-text {
+  color: #ffffff !important;
+}
+
+.token.class-name {
+  color: #fbf7c4 !important;
+}
+
+.token.attr-name {
+  color: #5cb3c1 !important;
+}
+
+.token.attr-value {
+  color: #b965d0 !important;
+}
+
+.token.string {
+  color: #8daa71 !important;
+}
+
+.token.tag {
+  color: #b7f270 !important;
+}
+
+.token.keyword {
+  color: #e3716c !important;
+}
+
+.token.function {
+  color: #c7ab43 !important;
+}
